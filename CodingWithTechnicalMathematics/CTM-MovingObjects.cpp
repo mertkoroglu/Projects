@@ -1,8 +1,4 @@
-/*STUDENT: Mert Köroðlu
-ID no: 22003433
-SECTION: 02
-HOMEWORK: 1
-----------
+/*
 PROBLEMS :
     1.Cannot prevent objects to be at the same location.
     ----------
@@ -416,7 +412,7 @@ void main(int argc, char* argv[]) {
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     //glutInitWindowPosition(100, 100);
-    glutCreateWindow("Mert Köroðlu 22003433");
+    glutCreateWindow("Mert KÃ¶roÃ°lu 22003433");
 
     glutDisplayFunc(display);
     glutReshapeFunc(onResize);
