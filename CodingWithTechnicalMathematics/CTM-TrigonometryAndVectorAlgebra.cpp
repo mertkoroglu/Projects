@@ -1,11 +1,5 @@
 /*********
-   CTIS164 - Template Source Program
-----------
-STUDENT : Mert Köroðlu
-ID : 22003433
-SECTION : 2
-HOMEWORK: 4
-----------
+   
 PROBLEMS:
 1. For some reason I can't rotate the chasing object.
 ----------
@@ -532,7 +526,7 @@ void main(int argc, char* argv[]) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    glutCreateWindow("HW-4: 'Chasing Sun and Moon' by Mert Köroðlu");
+    glutCreateWindow("HW-4: 'Chasing Sun and Moon' by Mert KÃ¶roÃ°lu");
 
     glutDisplayFunc(display);
     glutReshapeFunc(onResize);
