@@ -1,11 +1,5 @@
 /*********
-   CTIS164 - Template Source Program
-----------
-STUDENT : Mert Köroðlu
-ID : 22003433
-SECTION : 2
-HOMEWORK: 3
-----------
+  
 PROBLEMS:
 1. Guns original location cannot return after restart it by pressing f1
 ----------
@@ -625,7 +619,7 @@ void main(int argc, char* argv[]) {
     glutInitDisplayMode(GLUT_RGB | GLUT_DOUBLE);
     glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
     //glutInitWindowPosition(100, 100);
-    glutCreateWindow("HW 3: 'Hitting the Target' Mert Köroðlu");
+    glutCreateWindow("HW 3: 'Hitting the Target' Mert KÃ¶roÃ°lu");
 
     glutDisplayFunc(display);
     glutReshapeFunc(onResize);
