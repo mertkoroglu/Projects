@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+}
+
+#game {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 0 auto;
+  transform: translateY(120%);
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+#NavBar {
+  background-color: rgb(142, 158, 230);
+  padding: 1em;
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: auto;
+  display: block;
+}
+
+#NavBar span {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+#score {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+}
+
+#score span {
+  background-color: transparent;
+}
+
+#character {
+  width: 20px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  top: 150px;
+}
+
+#block {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  position: relative;
+  top: 130px;
+  left: 480px;
+  animation: block 1s infinite linear;
+}
+
+#gameover {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  display: none;
+  background-color: transparent;
+}
+
+#gameover h1 {
+  background-color: transparent;
+}
+
+#gameover span {
+  background-color: transparent;
+}
+
+.animate {
+  animation: jump 500ms;
+}
+
+@keyframes block {
+  0% {
+    left: 480px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+    background-color: aqua;
+  }
+  70% {
+    top: 100px;
+    background-color: aqua;
+  }
+  100% {
+    top: 150px;
+  }
+}
